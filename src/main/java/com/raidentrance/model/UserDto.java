@@ -2,7 +2,7 @@ package com.raidentrance.model;
 
 public class UserDto implements IUser {
 	private String username;
-	private IRole role;
+	private RoleDto role;
 	private String password;
 
 	public String getUsername() {
@@ -13,12 +13,16 @@ public class UserDto implements IUser {
 		this.username = username;
 	}
 
-	public IRole getRole() {
+	public RoleDto getRole() {
 		return role;
 	}
 
 	public void setRole(IRole role) {
-		this.role = role;
+		if (role instanceof RoleDto) {
+			this.role = (RoleDto) role;
+		} else {
+			throw new IllegalArgumentException(RoleDto.class.getName().concat(" instance required"));
+		}
 	}
 
 	public String getPassword() {
