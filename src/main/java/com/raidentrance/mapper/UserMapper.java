@@ -2,10 +2,10 @@ package com.raidentrance.mapper;
 
 import org.mapstruct.Mapper;
 
-import com.raidentrance.model.Role;
-import com.raidentrance.model.RoleDto;
-import com.raidentrance.model.User;
-import com.raidentrance.model.UserDto;
+import com.raidentrance.model.dto.RoleDto;
+import com.raidentrance.model.dto.UserDto;
+import com.raidentrance.model.pojo.Role;
+import com.raidentrance.model.pojo.User;
 
 /**
  * @author raidentrance

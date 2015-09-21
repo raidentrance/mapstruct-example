@@ -1,12 +1,14 @@
-package com.raidentrance.model;
+package com.raidentrance.model.pojo;
 
 import com.raidentrance.model.context.IRole;
+
 
 /**
  * @author raidentrance
  *
  */
-public class RoleDto implements IRole {
+public class Role implements IRole {
+
 	private String name;
 
 	public String getName() {

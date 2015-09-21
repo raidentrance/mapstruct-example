@@ -1,4 +1,4 @@
-package com.raidentrance.model;
+package com.raidentrance.model.pojo;
 
 import com.raidentrance.model.context.IRole;
 import com.raidentrance.model.context.IUser;
@@ -7,7 +7,7 @@ import com.raidentrance.model.context.IUser;
  * @author raidentrance
  *
  */
-public class UserDto implements IUser {
+public class User implements IUser {
 	private String username;
 	private IRole role;
 	private String password;
