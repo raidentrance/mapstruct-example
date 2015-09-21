@@ -1,5 +1,12 @@
 package com.raidentrance.model;
 
+import com.raidentrance.model.context.IRole;
+import com.raidentrance.model.context.IUser;
+
+/**
+ * @author raidentrance
+ *
+ */
 public class UserDto implements IUser {
 	private String username;
 	private IRole role;

@@ -1,5 +1,11 @@
 package com.raidentrance.model;
 
+import com.raidentrance.model.context.IRole;
+
+/**
+ * @author raidentrance
+ *
+ */
 public class RoleDto implements IRole {
 	private String name;
 

@@ -7,6 +7,10 @@ import com.raidentrance.model.RoleDto;
 import com.raidentrance.model.User;
 import com.raidentrance.model.UserDto;
 
+/**
+ * @author raidentrance
+ *
+ */
 @Mapper
 public interface UserMapper {
 
