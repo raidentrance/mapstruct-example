@@ -1,12 +1,10 @@
 package com.raidentrance.model.dto;
 
-import com.raidentrance.model.context.IRole;
-
 /**
  * @author raidentrance
  *
  */
-public class RoleDto implements IRole {
+public class RoleDto  {
 	private String name;
 
 	public String getName() {
@@ -16,5 +14,5 @@ public class RoleDto implements IRole {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
 }

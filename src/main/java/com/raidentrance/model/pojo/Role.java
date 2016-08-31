@@ -1,13 +1,10 @@
 package com.raidentrance.model.pojo;
 
-import com.raidentrance.model.context.IRole;
-
-
 /**
  * @author raidentrance
  *
  */
-public class Role implements IRole {
+public class Role {
 
 	private String name;
 
@@ -18,5 +15,7 @@ public class Role implements IRole {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	
 
 }

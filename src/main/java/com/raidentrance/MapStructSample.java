@@ -16,8 +16,8 @@ public class MapStructSample {
 		Role r = new Role();
 		r.setName("Admin");
 		User user = new User();
-		user.setUsername("Alex");
-		user.setPassword("Raidentrance123");
+		user.setUsername("raidentrance");
+		user.setPassword("Super secret");
 		user.setRole(r);
 		return user;
 	}
@@ -28,6 +28,8 @@ public class MapStructSample {
 
 		UserDto dto = instance.userToUserDto(user);
 		System.out.println(dto.getUsername());
+		System.out.println(dto.getPassword());
+		System.out.println(dto.getRole().getName());
 		System.out.println(dto.getRole().getClass());
 	}
 }

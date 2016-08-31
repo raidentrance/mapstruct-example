@@ -1,15 +1,12 @@
 package com.raidentrance.model.pojo;
 
-import com.raidentrance.model.context.IRole;
-import com.raidentrance.model.context.IUser;
-
 /**
  * @author raidentrance
  *
  */
-public class User implements IUser {
+public class User {
 	private String username;
-	private IRole role;
+	private Role role;
 	private String password;
 
 	public String getUsername() {
@@ -20,11 +17,11 @@ public class User implements IUser {
 		this.username = username;
 	}
 
-	public IRole getRole() {
+	public Role getRole() {
 		return role;
 	}
 
-	public void setRole(IRole role) {
+	public void setRole(Role role) {
 		this.role = role;
 	}
 
